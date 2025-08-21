@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Itim', sans-serif;
+    background: linear-gradient(to right, #80c6ff, #a3d3ff);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.image img {
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.title {
+    background-color: #d3a6ff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px 50px 0 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    color: #4c2a77;
+    margin-bottom: 20px;
+}
+
+.details {
+    color: #8b57f5;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.label {
+    display: inline-block;
+    min-width: 100px;
+}
